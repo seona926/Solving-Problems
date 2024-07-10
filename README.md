@@ -18,7 +18,3 @@ Problems are categorized by their type and difficulty:
 - **Algorithms**: Sorting, Searching, Dynamic Programming, etc.
 - **Data Structures**: Arrays, Linked Lists, Trees, Graphs, etc.
 - **Difficulty Levels**: Easy, Medium, Hard or level 0, 1, 2 ...
-
-## Code Structure
-
-The repository is structured as follows:
