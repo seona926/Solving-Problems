@@ -5,17 +5,12 @@
 let containsDuplicate = function(nums) {
     let counts = {};
 
-    nums.forEach((num) => {
-        if (counts[num] > 0) {
-            ++counts[num];
-        } else {
+    return nums.some((num) => {
+        if (counts[num] === undefined) {
             counts[num] = 1;
+            return false;
+        } else {
+            return true;
         }
-    })
-
-    for (const key in counts) {
-        if (counts[key] > 1) return true
-    }
-    
-    return false
+    });
 };
